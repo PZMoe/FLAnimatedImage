@@ -1,3 +1,7 @@
+  * Fix 120Hz device playback speed not correct
+
+= 1.0.17 (2022-02-16)
+
   * Fix not clearing super.image when passing nil to go from animated image to no image (Micha Faw @michafaw)
 
 = 1.0.16 (2021-04-21)
