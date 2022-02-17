@@ -118,8 +118,9 @@
         } else {
             // Stop animating before the animated image gets cleared out.
             [self stopAnimating];
+            //由于SDWebImage处理动图的分类给FLAnimatedImageView赋值时静态图时会先赋值image再赋值一个空的animatedImage，所以下列改动暂生效,等SDWebImage支持后再生效
             // Clear out the image.
-            super.image = nil;
+//            super.image = nil;
         }
         
         _animatedImage = animatedImage;
