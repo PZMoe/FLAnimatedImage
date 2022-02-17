@@ -1,4 +1,8 @@
-  * Fix 120Hz device playback speed not correct
+   * Temporarily not clear image when animatedImage is set nil because SDWebImage not support now
+
+= 1.0.18 (2022-02-17)
+
+ * Fix 120Hz device playback speed not correct
 
 = 1.0.17 (2022-02-16)
 
